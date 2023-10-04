@@ -1,11 +1,12 @@
 ﻿using sparkling_freedom.Model;
 using sparkling_freedom.Service;
 using FluentValidation;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace sparkling_freedom.Controller
 {
+    [Authorize]
     [Route("~/produtos")]
     [ApiController]
     public class ProdutoController : ControllerBase

@@ -35,13 +35,16 @@ namespace sparkling_freedom.Data
         {
             modelBuilder.Entity<Produto>().ToTable("tb_produtos");
             modelBuilder.Entity<Categoria>().ToTable("tb_categoria");
+            modelBuilder.Entity<User>().ToTable("tb_usuarios");
+
             _ = modelBuilder.Entity<Produto>() 
-                 .HasOne(_ => _.Categoria) 
-                 .WithMany(c => c.Produto) 
-                 .HasForeignKey("CategoriaId")
-                 .OnDelete(DeleteBehavior.Cascade);
+                .HasOne(_ => _.Categoria) 
+                .WithMany(c => c.Produto) 
+                .HasForeignKey("CategoriaId")
+                .OnDelete(DeleteBehavior.Cascade);
         }
         public DbSet<Produto> Produtos { get; set; } = null!;
         public DbSet<Categoria> Categorias { get; set; } = null!;
+        public DbSet<User> Users { get; set; } = null!;
     }
 }

@@ -79,3 +79,5 @@ C:\Users\user\Desktop\sparkling_freedom\sparkling_freedom\obj\Debug\net7.0\refin
 C:\Users\user\Desktop\sparkling_freedom\sparkling_freedom\obj\Debug\net7.0\sparkling_freedom.pdb
 C:\Users\user\Desktop\sparkling_freedom\sparkling_freedom\obj\Debug\net7.0\sparkling_freedom.genruntimeconfig.cache
 C:\Users\user\Desktop\sparkling_freedom\sparkling_freedom\obj\Debug\net7.0\ref\sparkling_freedom.dll
+c:\Users\user\Desktop\sparkling_freedom\sparkling_freedom\bin\Debug\net7.0\BCrypt.Net-Core.dll
+c:\Users\user\Desktop\sparkling_freedom\sparkling_freedom\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
