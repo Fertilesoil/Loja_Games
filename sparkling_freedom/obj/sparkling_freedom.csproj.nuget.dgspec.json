@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\sparkling_freedom.csproj": {}
+    "C:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\sparkling_freedom.csproj": {}
   },
   "projects": {
-    "c:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\sparkling_freedom.csproj": {
+    "C:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\sparkling_freedom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\sparkling_freedom.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\sparkling_freedom.csproj",
         "projectName": "sparkling_freedom",
-        "projectPath": "c:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\sparkling_freedom.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\sparkling_freedom.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

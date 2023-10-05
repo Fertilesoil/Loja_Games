@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cw0giImX0H+FffKptlt7UwcwwiYISGweV/TC/uXSgTCMk5RyeGhC/YfskV9RNeRFvBSlIFLTSIOyiuBi0ltOkw==",
+  "dgSpecHash": "gd29445pMqd5ZdN3tSr2Sps2CP08mjt2NOHRAjxAfwFnTvb1wMqlRdlHMlg22n1apXUyRCN3uyUXE2Jt2t3ihQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\sparkling_freedom.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\sparkling_freedom\\sparkling_freedom\\sparkling_freedom.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
