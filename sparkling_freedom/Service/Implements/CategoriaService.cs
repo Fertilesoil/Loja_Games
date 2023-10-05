@@ -17,8 +17,8 @@ namespace sparkling_freedom.Service.Implements
         public async Task<IEnumerable<Categoria>> GetAll()
         {
             return await _context.Categorias
-                       .Include(t => t.Produto)
-                       .ToListAsync();
+                        .Include(t => t.Produto)
+                        .ToListAsync();
         }
 
         public async Task<Categoria?> GetById(long id)

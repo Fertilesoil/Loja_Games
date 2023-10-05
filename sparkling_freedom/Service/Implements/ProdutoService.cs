@@ -38,18 +38,18 @@ namespace sparkling_freedom.Service.Implements
         public async Task<IEnumerable<Produto>> GetByNome(string nome)
         {
             var Produto = await _context.Produtos
-              .Include(p => p.Categoria)
-              .Where(p => p.Nome.Contains(nome))
-              .ToListAsync();
+            .Include(p => p.Categoria)
+            .Where(p => p.Nome.Contains(nome))
+            .ToListAsync();
 
             return Produto;
         }
         public async Task<IEnumerable<Produto>> GetByConsole(string console)
         {
             var Produto = await _context.Produtos
-              .Include(p => p.Categoria)
-              .Where(p => p.Console.Contains(console))
-              .ToListAsync();
+            .Include(p => p.Categoria)
+            .Where(p => p.Console.Contains(console))
+            .ToListAsync();
 
             return Produto;
         }
