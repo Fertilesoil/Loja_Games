@@ -1482,3 +1482,10 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+
+*.github
+*/sparkling_freedom/.vscode
+*/sparkling_freedom/bin
+*/sparkling_freedom/.vs
+*/sparkling_freedom/obj
+

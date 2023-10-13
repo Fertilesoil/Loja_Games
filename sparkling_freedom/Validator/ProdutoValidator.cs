@@ -8,9 +8,9 @@ namespace sparkling_freedom.Validator
         public ProdutoValidator()
         {
             RuleFor(n => n.Nome)
-              .NotEmpty()
-              .MinimumLength(5)
-              .MaximumLength(80);
+            .NotEmpty()
+            .MinimumLength(5)
+            .MaximumLength(80);
 
             RuleFor(d => d.Descricao)
                 .NotEmpty()
